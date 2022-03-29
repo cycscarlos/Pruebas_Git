@@ -5,27 +5,14 @@
 }
 
 :root {
-  --color-primary: #9d8d6c;
-  --color-secondary: #2c6fa0;
-
-  --tipo-primary: "Open Sans Condensed", sans-serif;
-  --tipo-seondary: "Open Sans", sans-serif;
-
-  --color-logo: #9d8d6c;
-  --color-background: #000;
-  --font-header: "Times New Roman", cursive;
-
   /* --color-social-icons: #000; */
   --color-whatsapp: hsl(134, 100%, 37%);
   --color-twitter: #1da1f2;
   --color-instagram: #833ab4;
   --color-linkedin: #0a66c2;
-
-  --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
-  --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
-  --step-0: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
 }
 
+<<<<<<< HEAD
 /* último cambio antes de crear la 2° rama*/
 footer {
   max-width: fit-content;
@@ -34,9 +21,22 @@ footer {
 
 /*todo Cambio después de crear la 2° rama para hacer el merge con Master  */
 
+=======
+/* 2da. rama cambio */
+footer {
+  max-width: fit-content;
+}
+/* fin del cambio  */
+
+/*: Cambio después de crear la 2° rama para hacer el merge con Master  */
+>>>>>>> segundaRama
 .cambios_2daRma {
   display: flexbox;
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 /* todo -------------- */
+=======
+/*_:-------------- */
+>>>>>>> segundaRama
