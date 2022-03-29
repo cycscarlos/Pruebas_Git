@@ -6,13 +6,14 @@
   box-sizing: border-box;
 }
 
-/* Voy a incluir estas líneas para luego reversalas usando el git restore --staged */
+/* último cambio */
 
 .header {
   width: 100%;
   position: relative;
   color: #4f4f4f;
 }
+/* fin del cambio  */
  
 img,
 picture,
