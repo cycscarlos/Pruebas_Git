@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -16,7 +15,7 @@
   --color-background: #000;
   --font-header: "Times New Roman", cursive;
 
-  --color-social-icons: #000;
+  /* --color-social-icons: #000; */
   --color-whatsapp: hsl(134, 100%, 37%);
   --color-twitter: #1da1f2;
   --color-instagram: #833ab4;
