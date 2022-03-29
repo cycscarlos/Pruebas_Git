@@ -5,6 +5,12 @@
   vertical-align: baseline;
 }
 
+/* Agregaré un cambio */
+
+body {
+  background-color: aquamarine;
+}
+
 :root {
   --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
   --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
