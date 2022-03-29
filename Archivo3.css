@@ -17,3 +17,11 @@ footer {
   max-width: fit-content;
 }
 /* fin del cambio  */
+
+/*: Cambio después de crear la 2° rama para hacer el merge con Master  */
+.cambios_2daRma {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/*_:-------------- */

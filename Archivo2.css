@@ -11,6 +11,14 @@ body {
 }
 /* fin del cambio  */
 
+/*: Cambio después de crear la 2° rama para hacer el merge con Master  */
+.cambios_2daRma {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/*_:-------------- */
+
 :root {
   --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
   --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
