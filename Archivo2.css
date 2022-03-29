@@ -5,12 +5,20 @@
   vertical-align: baseline;
 }
 
-/* último cambio */
-
+/* último cambio antes de crear la 2° rama*/
 body {
   background-color: aquamarine;
 }
-/* fin del cambio  */
+/* -------- */
+
+/*todo Cambio después de crear la 2° rama para hacer el merge con Master  */
+
+.cambios_2daRma {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/* todo -------------- */
 
 :root {
   --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);

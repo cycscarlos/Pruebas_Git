@@ -26,8 +26,17 @@
   --step-0: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
 }
 
-/* último cambio */
+/* último cambio antes de crear la 2° rama*/
 footer {
   max-width: fit-content;
 }
-/* fin del cambio  */
+/* -------  */
+
+/*todo Cambio después de crear la 2° rama para hacer el merge con Master  */
+
+.cambios_2daRma {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/* todo -------------- */

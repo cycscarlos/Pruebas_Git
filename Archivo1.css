@@ -6,15 +6,23 @@
   box-sizing: border-box;
 }
 
-/* último cambio */
-
+/* último cambio antes de crear la 2° rama*/
 .header {
   width: 100%;
   position: relative;
   color: #4f4f4f;
 }
-/* fin del cambio  */
- 
+/* ----------  */
+
+/*todo Cambio después de crear la 2° rama para hacer el merge con Master  */
+
+.cambios_2daRma {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/* todo -------------- */
+
 img,
 picture,
 video,
