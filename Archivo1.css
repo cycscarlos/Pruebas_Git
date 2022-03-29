@@ -6,12 +6,13 @@
   box-sizing: border-box;
 }
 
-/* último cambio */
+/* 2da. rama */
 
 .header {
   width: 100%;
   position: relative;
-  color: #4f4f4f;
+  background:black;
+  
 }
 /* fin del cambio  */
  
