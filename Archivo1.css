@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+/* Voy a incluir estas líneas para luego reversalas usando el git restore --staged */
+
+.header {
+  width: 100%;
+  position: relative;
+  color: #4f4f4f;
+}
+
 img,
 picture,
 video,
