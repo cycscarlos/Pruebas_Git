@@ -5,6 +5,10 @@
   vertical-align: baseline;
 }
 
+<<<<<<< HEAD
+=======
+/* 2da rama cambio */
+>>>>>>> segundaRama
 body {
   background-color: red;
 }
@@ -17,6 +21,14 @@ body {
   align-items: center;
 }
 /* todo -------------- */
+
+/*: Cambio después de crear la 2° rama para hacer el merge con Master  */
+.cambios_2daRma {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/*_:-------------- */
 
 /*: Cambio después de crear la 2° rama para hacer el merge con Master  */
 .cambios_2daRma {

@@ -14,13 +14,21 @@
 }
 /* ----------  */
 
+<<<<<<< HEAD
+=======
+/*: Cambio después de crear la 2° rama para hacer el merge con Master  */
+>>>>>>> segundaRama
 .cambios_2daRma {
   display: flexbox;
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
 /* todo -------------- */
+=======
+/*_:-------------- */
+>>>>>>> segundaRama
 
 img,
 picture,
