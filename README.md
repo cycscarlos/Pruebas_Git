@@ -1,4 +1,4 @@
-![zCoder Banner!](img/logo.png)
+![zCoder Banner!](img/logo.jpg)
 
 <br>
 
