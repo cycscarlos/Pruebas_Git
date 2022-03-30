@@ -1,12 +1,10 @@
-![zCoder Banner!](img/logo.jpg)
+![zCoder Banner!](img/miBanner.png)
 
 <br>
 
 ---
 
-<br>
-
-<p style="text-align:justify; font-size:14px">
+<p style="text-align:justify; font-size:20px">
 <br>
 
 Repositorio Dummy para hacer Pruebas!
