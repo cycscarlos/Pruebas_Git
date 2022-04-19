@@ -1,0 +1,18 @@
+.color-bg,
+.color-bg-variant,
+.color-primary,
+.color-primary-variant {
+  color: var(--color-white);
+}
+.color-bg {
+  background-color: black;
+}
+.color-bg-variant {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.color-primary {
+  background-color: brown;
+}
+.color-primary-variant {
+  background-color: rgba(165, 165, 42, 0.5);
+}

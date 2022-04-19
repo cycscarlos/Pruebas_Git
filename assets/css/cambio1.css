@@ -1,0 +1,13 @@
+
+.color-bg {
+  background-color: darkblue;
+}
+.color-bg-variant {
+  background-color: rgba(0, 0, 139, 0.5);
+}
+.color-primary {
+  background-color: #4db5ff;
+}
+.color-primary-variant {
+  background-color: rgba(77, 181, 255, 0.5);
+}
