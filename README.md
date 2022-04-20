@@ -1,4 +1,4 @@
-![zCoder Banner!](img/miBanner.png)
+![zCoder Banner!](assets/img/miBanner.pngimg/miBanner.png)
 
 <br>
 
