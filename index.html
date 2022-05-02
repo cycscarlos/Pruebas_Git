@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test site!</title>
+    <title>zCoder! | CYCS & Co.</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- <link rel="stylesheet" href="./assets/css/cambio1.css" />
     <link rel="stylesheet" href="./assets/css/cambio2.css" /> -->
@@ -16,8 +16,8 @@
     />
   </head>
   <body>
-    <header>
-      <div class="header-container">
+    <header id="idHeader" class="classHeader">
+      <div class="header-container classDiv">
         <div class="profile">
           <div class="logoFoto">
             <a href="#" class="logo">
@@ -30,37 +30,124 @@
             </a>
           </div>
 
-          <div class="logotext">
+          <div class="logotext classDiv">
             <cite>zCoder!</cite>
             <br /><span>...on Social Media</span>
           </div>
         </div>
 
-        <div class="phone">
+        <div class="phone classDiv">
           <i class="fa fa-phone" aria-hidden="true">+58 0414 324 63 96</i>
           <p>Carlos Colmenares A.</p>
         </div>
       </div>
     </header>
 
-    <section class="areaTrabajo">
+    <section class="areaTrabajo classSection">
       <!-- : area de trabajo -->
       <div class="titulo">
-        <h1>Sitios para todo tipo de pruebas</h1>
+        <h1 class="classTitulo">Sitios para todo tipo de pruebas</h1>
       </div>
 
+      <nav class="classNav">
+        <ul class="classUl">
+          <li class="classLi"><a href="#">..nav1</a></li>
+          <li class="classLi"><a href="#">..nav2</a></li>
+          <li class="classLi"><a href="#">..nav3</a></li>
+        </ul>
+      </nav>
+
       <div class="container-color">
-        <div class="subtitulo">
-          <h3>Pruebas de Color y Centrado de Textos</h3>
+        <div class="subtitulo classDiv">
+          <h3 class="classTitulo">Pruebas de Color y Centrado de Textos</h3>
         </div>
 
-        <div class="colorBx">
-          <div class="color-bg">Color-bg</div>
+        <div class="colorBx" nombre="color">
+          <div class="color-bg name">Color-bg</div>
           <div class="color-bg-variant">Color-bg-variant</div>
           <div class="color-primary">Color-primary</div>
           <div class="color-primary-variant">Color-primary-variant</div>
         </div>
       </div>
     </section>
+
+    <main class="classMain" id="main">
+      <section class="contact classSection" id="contact">
+        <h2 class="classTitulo" id="form">Formulario de Registro</h2>
+
+        <div class="containerForm contact__container">
+          <form class="contact__form">
+            <div class="form__name">
+              <input
+                type="text"
+                name="First Name"
+                placeholder="Nombre"
+                required
+              />
+
+              <input
+                type="text"
+                name="Last Name"
+                placeholder="Apellido"
+                required
+              />
+            </div>
+
+            <input
+              type="email"
+              name="Email Address"
+              placeholder="Correo Electrónico"
+              required
+            />
+
+            <textarea
+              name="Message"
+              rows="7"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+
+          <article class="border-grey classArticle">
+            <h3 class="classTitulo">Blog</h3>
+            <p class="classParrafo">
+              And they shall make a List of all public Money shall be granted by
+              the United States, directed to the Duties of the said House shall
+              be./p>
+            </p>
+          </article>
+          <article class="border-grey classArticle">
+            <h3 class="classTitulo">Article</h3>
+            <p class="classParrafo">
+              And they shall make a List of all public Money shall be granted by
+              the United States, directed to the Duties of the said House shall
+              be./p>
+            </p>
+          </article>
+          <article class="border-grey classArticle">
+            <h3 class="classTitulo">Article</h3>
+            <p class="classParrafo">
+              And they shall make a List of all public Money shall be granted by
+              the United States, directed to the Duties of the said House shall
+              be./p>
+            </p>
+          </article>
+          <article class="border-grey classArticle">
+            <h3 class="classTitulo">Article</h3>
+            <p class="classParrafo">
+              And they shall make a List of all public Money shall be granted by
+              the United States, directed to the Duties of the said House shall
+              be./p>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="classFooter">
+      <p>Copyright &copy; 2022 Carlos Colmenares A. | Derechos reservados</p>
+    </footer>
+    <!-- <script src="./assets/js/DOM1-selector.js"></script> -->
   </body>
 </html>

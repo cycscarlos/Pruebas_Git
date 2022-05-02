@@ -12,10 +12,20 @@
   --font-header: "Times New Roman", cursive;
   --color-text: #27607c;
   --color-white: #ffffff;
+  --color-azulObscuro: #1c3643;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 400ms ease;
 
   --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
   --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
   --step-0: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
+}
+body {
+  font-family: "Open Sans condensed", sans-serif;
 }
 /*: Comienzo de header */
 header {
@@ -73,37 +83,47 @@ header {
   font-style: italic;
   letter-spacing: 0.05em;
 }
-@media screen and (max-width: 414px) {
-  header {
-    box-shadow: 0 0 0.05em cyan;
-  }
-  .header-container {
-    padding: 0.625em 0.625em;
-  }
-}
-@media screen and (max-width: 500px) {
-  header {
-    padding: 0.625em 1.25em;
-    box-shadow: 0 0 0.05em cyan;
-  }
-  .profile {
-    flex-direction: column;
-    text-align: center;
-  }
-  .logotext {
-    margin: 0.3em auto 0;
-  }
-}
-/*: finaliza header */
 
-/*: area de trabajo */
+.border-grey {
+  border: 1px dotted grey;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  width: 100%;
+  position: relative;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 3rem 1rem;
+}
+
+nav ul li a {
+  font-size: var(--step-0);
+  color: var(--color-logo);
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+nav ul li a:hover {
+  opacity: 0.5;
+}
+
 section.areaTrabajo {
   width: 80%;
   margin: 0 auto;
   padding: 8rem 0;
 }
 
-.titulo {
+.areaTrabajo .titulo {
   text-align: center;
   color: var(--color-logo);
   margin: 20px auto;
@@ -141,21 +161,165 @@ section.areaTrabajo {
   align-items: center;
   color: var(--color-white);
 }
+
 .color-bg {
   background-color: tomato;
 }
+
 .color-bg-variant {
   background-color: rgba(255, 99, 71, 0.5);
 }
+
 .color-primary {
   background-color: #4db5ff;
 }
+
 .color-primary-variant {
   background-color: rgba(77, 181, 255, 0.5);
 }
+
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  text-align: center;
+  color: var(--color-logo);
+  margin: 0 auto 20px;
+}
+
+.contact {
+  padding: 4rem 0 4rem 0;
+  background: var(--color-text);
+}
+
+.containerForm {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+.contact__container {
+  background: white;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+.contact__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+
+.form__name {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contact__form input[type="text"] {
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  background: var(--color-azulObscuro);
+  color: var(--color-logo);
+}
+
+.contact .btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid var(--color-azulObscuro);
+
+  font-weight: 500;
+  border-radius: 5px;
+  transition: (--transiction);
+}
+
+.contact .btn {
+  width: max-content;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.contact .btn:hover {
+  background: var(--color-azulMedio);
+  color: var(--white-color);
+}
+
+.contact .btn-primary {
+  background: var(--color-text);
+  color: var(--color-logo);
+}
+
+article {
+  width: 100%;
+  justify-content: center;
+  color: var(--color-logo);
+  padding: 20px;
+}
+
+article h3 {
+  margin: 10px 0;
+}
+
+#form {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: var(--step--2);
+  background: var(--color-text);
+  color: grey;
+}
+
 /*: Media queries & responsive design  */
 @media screen and (max-width: 768px) {
   .colorBx {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 0.625em 1.25em;
+    box-shadow: 0 0 0.05em cyan;
+  }
+  .areaTrabajo .titulo,
+  .areatRabajo .subtitulo {
+    font-size: var(--step-1);
+  }
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logotext {
+    margin: 0.3em auto 0;
+  }
+  .contact__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    box-shadow: 0 0 0.05em cyan;
+  }
+  .header-container {
+    padding: 0.625em 0.625em;
   }
 }
