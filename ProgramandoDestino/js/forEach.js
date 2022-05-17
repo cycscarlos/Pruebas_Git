@@ -43,10 +43,10 @@ const valores2 = [3, 5, 7, 9, 10, 11, 4];
 //   }
 // }
 
-console.time("forEach()");
-valores2.forEach((valor) => {
-  if (valor % 2 === 0) {
-    console.log("Encontré un par: ", valor);
-  }
-});
-console.timeEnd("forEach()");
+// console.time("forEach()");
+// valores2.forEach((valor) => {
+//   if (valor % 2 === 0) {
+//     console.log("Encontré un par: ", valor);
+//   }
+// });
+// console.timeEnd("forEach()");

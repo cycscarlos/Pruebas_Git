@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/cambio2.css" /> -->
     <link rel="stylesheet" href="./assets/css/cambio3.css" />
     <link rel="stylesheet" href="./assets/css/desarrollandoDestino.css" />
+    <link rel="stylesheet" href="./assets/css/jap.css" />
     <link
       rel="shortcut icon"
       href="./assets/img/favicon.png"
@@ -56,10 +57,10 @@
           <li class="classLi"><a href="#color">Color</a></li>
           <li class="classLi"><a href="#contact">Formulario</a></li>
           <li class="classLi">
-            <a href="#btnBx-id">ProgramandoDestino - Eventos</a>
+            <a href="#util">Programación Útil</a>
           </li>
           <li class="classLi">
-            <a href="#workArea">ProgramandoDestino - Arreglos</a>
+            <a href="#destino">Programando el Destino</a>
           </li>
         </ul>
       </nav>
@@ -153,43 +154,61 @@
       </section>
 
       <!-- Programando el Destino: Manejo de EVENTOS (AddEventListener)  -->
-      <div id="btnBx-id" class="evento-btnBx" style="border: 1px solid red" ;>
-        <button data-color="red" class="evento-btn evento-btn-primary">
-          Botón-1
-        </button>
-        <button data-color="green" class="evento-btn evento-btn-primary">
-          Botón-2
-        </button>
-        <button data-color="blue" class="evento-btn evento-btn-primary">
-          Botón-3
-        </button>
-        <button class="evento-btn evento-btn-primary">Botón-4</button>
-      </div>
+      <section id="util" class="workArea">
+        <div class="workArea-titulo">
+          <h3>Curso de Javascript</h3>
+        </div>
+        <div class="workArea-subtitulo">
+          <h2><small>Autor: </small>Desarrollo Util</h2>
+        </div>
+        <div id="btnBx-id" class="evento-btnBx" ;>
+          <button data-color="red" class="evento-btn evento-btn-primary">
+            Botón-1
+          </button>
+          <button data-color="green" class="evento-btn evento-btn-primary">
+            Botón-2
+          </button>
+          <button data-color="blue" class="evento-btn evento-btn-primary">
+            Botón-3
+          </button>
+          <button class="evento-btn evento-btn-primary">Botón-4</button>
+        </div>
+      </section>
+
+      <!-- Área Desarrollando el Destino (Javascript)-->
+      <section id="destino" class="workArea">
+        <div class="workArea-titulo">
+          <h3>Curso de Javascript</h3>
+        </div>
+        <div class="workArea-subtitulo">
+          <h2><small>Autor: </small>Programando el Destino</h2>
+        </div>
+        <div id="workArea-container" class="workArea-container">
+          <ul>
+            <li>Item01</li>
+            <li>Item02</li>
+            <li>Item03</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Área JAP (Javascript)-->
+      <section id="jap" class="workArea">
+        <div class="workArea-titulo">
+          <h3>Curso de Javascript</h3>
+        </div>
+        <div class="workArea-subtitulo">
+          <h2><small>Autor: </small>JAP - Javascript Forever</h2>
+        </div>
+
+        <div id="jap-container" class="workArea-container"></div>
+      </section>
     </main>
 
-    <!-- Área Desarrollando el Destino (Javascript)-->
-    <section id="workArea" class="workArea">
-      <div class="workArea-titulo">
-        <h3>Curso de Javascript</h3>
-      </div>
-      <div class="workArea-subtitulo">
-        <h1><small>Autor: </small>Programando el Destino</h1>
-      </div>
-      <div id="workArea-container" class="workArea-container">
-        <ul>
-          <li>Item01</li>
-          <li>Item02</li>
-          <li>Item03</li>
-        </ul>
-      </div>
-    </section>
     <footer class="classFooter">
       <p>Copyright &copy; 2022 Carlos Colmenares A. | Derechos reservados</p>
     </footer>
-    <!-- <script src="./assets/js/desarrolloUtil/manipularSelectores.js"></script> -->
-    <!-- <script src="./assets/js/programandoDestino/addEventListeners.js"></script> -->
-    <!-- <script src="./ProgramandoDestino/js/funciones1.js"></script> -->
-    <!-- <script src="./GroverVasquez/index.js"></script> -->
-    <script src="./cocinaDelCodigo/index.js"></script>
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>

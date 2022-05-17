@@ -1,0 +1,9 @@
+.japBx {
+  width: 150px;
+  height: 150px;
+  font-size: 2em;
+  border: 1px solid #000;
+  margin: 5px;
+  text-align: center;
+  line-height: 150px;
+}
